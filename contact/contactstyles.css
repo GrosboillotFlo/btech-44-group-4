@@ -1,0 +1,189 @@
+@font-face {
+  font-family: "Cafe Matcha Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Cafe Matcha Regular"), url("Cafe Matcha.woff") format("woff");
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cafe Matcha Regular";
+  background-color: wheat;
+  height: 100vh;
+  position: relative;
+}
+nav {
+  position: relative;
+  background-color: rgb(37, 35, 35);
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  background-image: url(pexels-valeriya-1639562.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-clip: border-box;
+}
+main {
+  padding-bottom: 250px;
+}
+#logo {
+  position: absolute;
+  left: 30px;
+  height: 70px;
+  width: 30%;
+  bottom: 20px;
+}
+.groupelien {
+  position: absolute;
+  right: 30px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(27, 29, 32);
+  height: 200px;
+  width: 100%;
+  color: white;
+  border-radius: 1em;
+}
+.copyright {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.rs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.lienfooter {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+}
+.lien {
+  font-size: large;
+  position: relative;
+  text-decoration: none;
+  color: beige;
+  margin: 10px;
+}
+.lien::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: beige;
+  transition: all 0.5s;
+}
+.lien:hover::after {
+  width: 100%;
+}
+.heure {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.gps {
+  background-color: burlywood;
+  margin: 50px;
+  padding: 40px;
+  border-radius: 20px;
+  position: relative;
+}
+
+iframe {
+  width: 700px;
+  height: 400px;
+}
+
+.style1 {
+  font-family: "Cafe Matcha Regular";
+  color: white;
+}
+
+.contact {
+  background-color: slategray;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.style2 {
+  font-family: "Cafe Matcha Regular";
+  color: white;
+}
+
+#bordure1 {
+  border: 2px solid black;
+  margin: 20px;
+  border: none;
+}
+
+#bordure2 {
+  border: 2px solid black;
+  margin: 20px;
+
+  border: none;
+}
+
+#bordure3 {
+  border: 2px solid black;
+  margin: 20px;
+
+  border: none;
+}
+
+.size {
+  font-size: larger;
+  color: rgb(0, 0, 0);
+}
+#gpsimg {
+  position: absolute;
+  left: 50%;
+  top: 90px;
+}
+
+#text {
+  margin: 10px;
+}
+
+#contactimg {
+  width: 60px;
+}
+.anton-regular {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bad-script-regular {
+  font-family: "Bad Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 1em;
+}
+
+input {
+  background-color: rgb(255, 255, 255);
+  border-radius: 1em;
+  padding: 10px;
+}
+
+section {
+  margin: 50px;
+}
